@@ -1,7 +1,7 @@
 def decimal_to_binary(n):
     """converts decimal to binary
-    n:integer to be converted
-    returns:string
+    :param n: integer to be converted
+    :return: string
     """
     if n == 0: return '0'
     if n == 1: return '1'
@@ -12,8 +12,8 @@ def decimal_to_binary(n):
 
 def binary_to_decimal(b:str):
     """converts binary to decimal
-    b:string to be converted
-    returns:integer
+    :param b: string to be converted
+    :return: integer
     """
     if b == '': return 0
     place = len(b) - 1
@@ -31,5 +31,6 @@ print(binary_to_decimal("11111111"))  # 255
 print(binary_to_decimal("1"))         # 1
 
 print(type(decimal_to_binary(10)))
-'''
+
 #print(type(binary_to_decimal("100")))
+'''
