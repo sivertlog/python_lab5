@@ -40,8 +40,9 @@ print(ip_convert("192.168.1.1"))  # "11000000.10101000.00000001.00000001"
 print(ip_convert("11000000.10101000.00000001.00000001"))  # "192.168.1.1"
 print(ip_convert("255.255.255.0"))  # "11111111.11111111.11111111.00000000"
 print(ip_convert("11111111.11111111.11111111.00000000")) # "255.255.255.0"
-print(ip_convert(".256.1.1.1"))  # "Invalid IP address"
-print(ip_convert("11.111111.11111111.000000...00"))
-print(ip_convert(""))
-print(ip_convert(ip_convert("192.168.1.1")))
+print(ip_convert("256.1.1.1"))  # "Invalid IP address"
+print(ip_convert("11.111111.11111111.000000...00"))  # "Invalid IP address"
+print(ip_convert(""))  # "Invalid IP address"
+print(ip_convert(ip_convert(".192.168.1.1")))  # "Invalid IP address"
+print(ip_convert(ip_convert("192.168.1.1")))  # Double conversion!!
 
