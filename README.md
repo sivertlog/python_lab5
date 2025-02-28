@@ -1,6 +1,11 @@
 # Lab 05
-by Sivert Log
+Sivert Log  
+February 2025
 ### Lab Notes:
+
+*Parts One and Two of the lab are mostly identical to what we
+created in class. These notes describe the location of each lab part
+as well as changes/added parts to complete the extra credit assignment.*
 
 ***Part One***  
 Part one of the lab is located in **py_lab05_p1.py**.
